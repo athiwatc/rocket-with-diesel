@@ -1,0 +1,6 @@
+[package]
+name = "HomeLogic"
+version = "0.1.0"
+authors = ["Athiwat Chunlakhan <athiwatc@gmail.com>"]
+
+[dependencies]
