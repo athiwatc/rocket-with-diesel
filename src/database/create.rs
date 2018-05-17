@@ -2,8 +2,9 @@ use super::connection::DbConn;
 use super::models::NewUser;
 use diesel;
 use diesel::RunQueryDsl;
+use diesel::prelude::*;
 
-pub fn create_user<'a>(conn: &DbConn, username: &'a str, token: &'a str) {
+pub fn create_user<'a>(conn: &DbConn<SqliteConnection>, username: &'a str, token: &'a str) {
   use database::schema::users;
 
   let new_user = NewUser { username, token };

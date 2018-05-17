@@ -1,0 +1,11 @@
+/Users/athiwatchunlakhan/Projects/Rust/home_logic/rls/debug/deps/libyansi-8221eb77c6a3d992.rlib: /Users/athiwatchunlakhan/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/lib.rs /Users/athiwatchunlakhan/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/docify.rs /Users/athiwatchunlakhan/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/macros.rs /Users/athiwatchunlakhan/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/windows.rs /Users/athiwatchunlakhan/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/paint.rs /Users/athiwatchunlakhan/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/style.rs /Users/athiwatchunlakhan/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/color.rs
+
+/Users/athiwatchunlakhan/Projects/Rust/home_logic/rls/debug/deps/yansi-8221eb77c6a3d992.d: /Users/athiwatchunlakhan/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/lib.rs /Users/athiwatchunlakhan/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/docify.rs /Users/athiwatchunlakhan/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/macros.rs /Users/athiwatchunlakhan/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/windows.rs /Users/athiwatchunlakhan/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/paint.rs /Users/athiwatchunlakhan/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/style.rs /Users/athiwatchunlakhan/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/color.rs
+
+/Users/athiwatchunlakhan/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/lib.rs:
+/Users/athiwatchunlakhan/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/docify.rs:
+/Users/athiwatchunlakhan/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/macros.rs:
+/Users/athiwatchunlakhan/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/windows.rs:
+/Users/athiwatchunlakhan/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/paint.rs:
+/Users/athiwatchunlakhan/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/style.rs:
+/Users/athiwatchunlakhan/.cargo/registry/src/github.com-1ecc6299db9ec823/yansi-0.4.0/src/color.rs:

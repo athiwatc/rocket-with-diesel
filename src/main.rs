@@ -28,7 +28,7 @@ use database::models::*;
 use uuid::Uuid;
 
 #[get("/")]
-fn index(conn: DbConn) -> Json<Value> {
+fn index(conn: DbConn<SqliteConnection>) -> Json<Value> {
     use database::schema::users::dsl::*;
 
     let all_users = users.load::<User>(&*conn).expect("BOOM");
@@ -36,13 +36,13 @@ fn index(conn: DbConn) -> Json<Value> {
 }
 
 #[get("/users/add/<username>")]
-fn add_user(username: String, conn: DbConn) -> Json<Value> {
+fn add_user(username: String, conn: DbConn<SqliteConnection>) -> Json<Value> {
     create_user(&conn, &username[..], &Uuid::new_v4().to_string()[..]);
     Json(json!({ "username": &username }))
 }
 
 #[get("/bench/<count_opt>")]
-fn bench(count_opt: Option<i32>, conn: DbConn) -> String {
+fn bench(count_opt: Option<i32>, conn: DbConn<SqliteConnection>) -> String {
     
     let count = match count_opt {
         Some(c) => c,
@@ -58,7 +58,7 @@ fn bench(count_opt: Option<i32>, conn: DbConn) -> String {
 
 fn main() {
     rocket::ignite()
-        .manage(init_pool())
+        .manage(init_pool::<SqliteConnection>())
         .mount("/", routes![index, add_user, bench])
         .launch();
 }
